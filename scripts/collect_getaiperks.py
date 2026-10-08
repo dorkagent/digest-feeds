@@ -8,18 +8,30 @@ import datetime
 import json
 import re
 import sys
+import time
 import urllib.request
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                     "Chrome/120 Safari/537.36"}
 
 
+def fetch_index(tries=4):
+    last = None
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request("https://www.getaiperks.com/en/blogs",
+                                         headers=UA)
+            return urllib.request.urlopen(req, timeout=40).read().decode(
+                "utf-8", "replace")
+        except Exception as e:
+            last = e
+            time.sleep(2 ** attempt + 1)
+    raise last
+
+
 def main():
     out = sys.argv[1]
-    req = urllib.request.Request("https://www.getaiperks.com/en/blogs",
-                                 headers=UA)
-    html = urllib.request.urlopen(req, timeout=40).read().decode(
-        "utf-8", "replace")
+    html = fetch_index()
     posts = []
     for m in re.finditer(r'<a[^>]+href="(/en/blogs/[^"]+)"[^>]*>(.*?)</a>',
                          html, re.S):
