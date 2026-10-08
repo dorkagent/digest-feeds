@@ -1,0 +1,31 @@
+name: collect-ai-trading
+# r/ai_trading 7-day pull for the weekly strategy digest.
+# Runs Thu 16:30 UTC = 09:30 PT (PDT); the VM digest job fires Thu 10:44 PT.
+# Keyless (Arctic Shift). No secrets.
+on:
+  schedule:
+    - cron: "30 16 * * 4"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect r/ai_trading (7d)
+        run: |
+          WK=$(date -u +%G-W%V)
+          mkdir -p data/ai-trading
+          python3 scripts/collect_reddit.py --subreddit ai_trading --days 7 \
+            --out data/ai-trading/posts-$WK.json
+      - name: Commit data
+        run: |
+          git config user.name "dorkagent"
+          git config user.email "dork@agentmail.to"
+          git add data/
+          git diff --cached --quiet || git commit -m "collect ai-trading $(date -u +%F)"
+          git push
