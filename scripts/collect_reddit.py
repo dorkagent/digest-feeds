@@ -9,18 +9,35 @@ import datetime
 import json
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
 BASE = "https://arctic-shift.photon-reddit.com"
 UA = {"User-Agent": "dorkagent-digest-feeds/1.0 (weekly digest collector)"}
+LAST_CALL = [0.0]
 
 
-def get(path, params):
+def get(path, params, tries=5):
+    """GET with retries — Arctic Shift intermittently 422s paged requests."""
     url = BASE + path + "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=40) as r:
-        return json.load(r)
+    last = None
+    for attempt in range(tries):
+        # Gentle pacing: min 1s between requests (volunteer-run service).
+        wait = 1.0 - (time.time() - LAST_CALL[0])
+        if wait > 0:
+            time.sleep(wait)
+        req = urllib.request.Request(url, headers=UA)
+        try:
+            with urllib.request.urlopen(req, timeout=40) as r:
+                LAST_CALL[0] = time.time()
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code not in (422, 429, 500, 502, 503):
+                raise
+            time.sleep(2 ** attempt + 1)
+    raise last
 
 
 def slim_post(p):
