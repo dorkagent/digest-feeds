@@ -7,6 +7,7 @@ import datetime
 import json
 import os
 import sys
+import time
 import urllib.request
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
@@ -15,11 +16,20 @@ from collect_reddit import fetch_posts, slim_post  # noqa: E402
 UA = {"User-Agent": "dorkagent-digest-feeds/1.0 (weekly free-stuff collector)"}
 
 
-def hn_frontpage(n=30):
+def hn_frontpage(n=30, tries=4):
     url = ("https://hn.algolia.com/api/v1/search?tags=front_page"
            f"&hitsPerPage={n}")
-    req = urllib.request.Request(url, headers=UA)
-    d = json.load(urllib.request.urlopen(req, timeout=30))
+    last = None
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            d = json.load(urllib.request.urlopen(req, timeout=30))
+            break
+        except Exception as e:
+            last = e
+            time.sleep(2 ** attempt + 1)
+    else:
+        raise last
     items = []
     for h in d.get("hits", []):
         items.append({
