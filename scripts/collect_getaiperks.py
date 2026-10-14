@@ -1,71 +1,109 @@
 #!/usr/bin/env python3
-"""Fetch the Get AI Perks blog index (https://www.getaiperks.com/en/blogs).
+"""Get AI Perks blog index -> JSON (title, url, date, excerpt, tags, is_new).
 
-Keyless HTML parse: title, URL, publish date, tags per card.
-Usage: collect_getaiperks.py <out.json>
+Index is server-rendered (Next.js on Vercel), 24 cards per page, newest first,
+paginated at /en/blogs/page/N. Walks pages until a card is older than the
+window, and exits non-zero if nothing parses (markup changed) so the workflow
+never commits an empty file that looks like a quiet week.
+Usage: collect_getaiperks.py <out.json> [--days 7]
 """
-import datetime
+import argparse
+import datetime as dt
 import html
 import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                    "Chrome/120 Safari/537.36"}
+BASE = "https://www.getaiperks.com"
+UA = {"User-Agent": "dorkagent-digest-feeds/1.0 (+https://github.com/dorkagent/digest-feeds)"}
+CARD = re.compile(r'<a[^>]+href="(/en/blogs/\d+-[^"]+)"[^>]*>(.*?)</a>', re.S)
+MAX_PAGES = 5
 
 
-def fetch_index(tries=4):
-    last = None
+def fetch(path, tries=4):
     for attempt in range(tries):
         try:
-            req = urllib.request.Request("https://www.getaiperks.com/en/blogs",
-                                         headers=UA)
-            return urllib.request.urlopen(req, timeout=40).read().decode(
-                "utf-8", "replace")
-        except Exception as e:
-            last = e
-            time.sleep(2 ** attempt + 1)
-    raise last
+            req = urllib.request.Request(BASE + path, headers=UA)
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code < 500 and e.code != 429 or attempt == tries - 1:
+                raise
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            if attempt == tries - 1:
+                raise
+        time.sleep(2 ** attempt + 1)
+
+
+def text(fragment):
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", fragment))).strip()
+
+
+def parse(page):
+    cards = []
+    for href, body in CARD.findall(page):
+        t = re.search(r"<h2[^>]*>(.*?)</h2>", body, re.S)
+        if not t:
+            continue
+        d = re.search(r'<time[^>]+date[Tt]ime="([^"]+)"', body)
+        p = re.search(r"<p[^>]*>(.*?)</p>", body, re.S)
+        # tag chips sit in the wrap div right after the excerpt; author is the
+        # bold span after the avatar. Kept separate so views/author aren't tags.
+        tagbox = re.search(r'<div class="[^"]*flex-wrap[^"]*">(.*?)</div>', body, re.S)
+        au = re.search(r'<span class="[^"]*font-semibold[^"]*">(.*?)</span>', body, re.S)
+        cards.append({
+            "title": text(t.group(1)),
+            "url": BASE + href,
+            "date": d.group(1)[:10] if d else None,
+            "excerpt": text(p.group(1)) if p else "",
+            "tags": [text(s) for s in re.findall(r"<span[^>]*>(.*?)</span>", tagbox.group(1), re.S)] if tagbox else [],
+            "author": text(au.group(1)) if au else None,
+        })
+    return cards
 
 
 def main():
-    if len(sys.argv) != 2:
-        print("usage: collect_getaiperks.py <out.json>", file=sys.stderr)
-        sys.exit(2)
-    out = sys.argv[1]
-    page = fetch_index()
-    posts = []
-    for m in re.finditer(r'<a[^>]+href="(/en/blogs/[^"]+)"[^>]*>(.*?)</a>',
-                         page, re.S):
-        href, body = m.group(1), m.group(2)
-        t = re.search(r"<h2[^>]*>(.*?)</h2>", body, re.S)
-        d = re.search(r'<time[^>]+dateTime="([^"]+)"', body)
-        if not t:
-            continue
-        title = html.unescape(re.sub(r"\s+", " ",
-                       re.sub(r"<[^>]+>", "", t.group(1))).strip())
-        posts.append({
-            "title": title,
-            "url": "https://www.getaiperks.com" + href,
-            "date": d.group(1) if d else None,
-        })
-    seen, uniq = set(), []
-    for p in posts:
-        if p["url"] not in seen:
-            seen.add(p["url"])
-            uniq.append(p)
+    ap = argparse.ArgumentParser()
+    ap.add_argument("out")
+    ap.add_argument("--days", type=int, default=7)
+    a = ap.parse_args()
+    cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=a.days)).date().isoformat()
+
+    posts, seen, pages = [], set(), 0
+    for n in range(1, MAX_PAGES + 1):
+        cards = parse(fetch("/en/blogs" if n == 1 else f"/en/blogs/page/{n}"))
+        pages = n
+        if not cards:
+            break
+        for c in cards:
+            if c["url"] not in seen:
+                seen.add(c["url"])
+                c["is_new"] = bool(c["date"] and c["date"] >= cutoff)
+                posts.append(c)
+        oldest = min((c["date"] for c in cards if c["date"]), default=None)
+        if oldest is None or oldest < cutoff:
+            break  # this page already reaches past the window
+
+    if not posts:
+        print("ERROR: 0 cards parsed -- index markup likely changed", file=sys.stderr)
+        sys.exit(1)
+    undated = sum(1 for p in posts if not p["date"])
     doc = {
-        "collected_at": datetime.datetime.now(
-            datetime.timezone.utc).isoformat(),
-        "source": "https://www.getaiperks.com/en/blogs",
-        "n_posts": len(uniq),
-        "posts": uniq,
+        "collected_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+        "source": BASE + "/en/blogs",
+        "window_days": a.days,
+        "pages_read": pages,
+        "n_posts": len(posts),
+        "n_new": sum(p["is_new"] for p in posts),
+        "n_undated": undated,
+        "posts": posts,
     }
-    with open(out, "w") as f:
+    with open(a.out, "w") as f:
         json.dump(doc, f, indent=1)
-    print(f"wrote {out}: {len(uniq)} posts")
+    print(f"wrote {a.out}: {len(posts)} posts ({doc['n_new']} new, {undated} undated)")
 
 
 if __name__ == "__main__":
