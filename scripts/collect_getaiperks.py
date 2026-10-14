@@ -5,6 +5,7 @@ Keyless HTML parse: title, URL, publish date, tags per card.
 Usage: collect_getaiperks.py <out.json>
 """
 import datetime
+import html
 import json
 import re
 import sys
@@ -30,18 +31,21 @@ def fetch_index(tries=4):
 
 
 def main():
+    if len(sys.argv) != 2:
+        print("usage: collect_getaiperks.py <out.json>", file=sys.stderr)
+        sys.exit(2)
     out = sys.argv[1]
-    html = fetch_index()
+    page = fetch_index()
     posts = []
     for m in re.finditer(r'<a[^>]+href="(/en/blogs/[^"]+)"[^>]*>(.*?)</a>',
-                         html, re.S):
+                         page, re.S):
         href, body = m.group(1), m.group(2)
         t = re.search(r"<h2[^>]*>(.*?)</h2>", body, re.S)
         d = re.search(r'<time[^>]+dateTime="([^"]+)"', body)
         if not t:
             continue
-        title = re.sub(r"\s+", " ",
-                       re.sub(r"<[^>]+>", "", t.group(1))).strip()
+        title = html.unescape(re.sub(r"\s+", " ",
+                       re.sub(r"<[^>]+>", "", t.group(1))).strip())
         posts.append({
             "title": title,
             "url": "https://www.getaiperks.com" + href,

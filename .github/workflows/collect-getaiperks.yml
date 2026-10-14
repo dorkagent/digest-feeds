@@ -8,24 +8,41 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+# One data-push at a time across all collectors (push-race guard); the
+# pull --rebase below makes each push fast-forward after waiting.
+concurrency:
+  group: digest-feeds-data-push
+  cancel-in-progress: false
 jobs:
   collect:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
-      - name: Collect blog index + freebies
+      # Separate steps with continue-on-error: a blog-index failure must not
+      # take down the freebies file (and vice versa). Each script also
+      # isolates its own sources and writes partial output on failure.
+      - name: Collect blog index
+        id: blog
+        continue-on-error: true
         run: |
-          WK=$(date -u +%G-W%V)
+          WK=$(TZ=America/Los_Angeles date +%G-W%V)
           mkdir -p data/getaiperks
           python3 scripts/collect_getaiperks.py data/getaiperks/blog-$WK.json
+      - name: Collect freebies sweep
+        id: freebies
+        continue-on-error: true
+        run: |
+          WK=$(TZ=America/Los_Angeles date +%G-W%V)
+          mkdir -p data/getaiperks
           python3 scripts/collect_freebies.py data/getaiperks/freebies-$WK.json
       - name: Commit data
         run: |
           git config user.name "dorkagent"
           git config user.email "dork@agentmail.to"
           git add data/
+          git pull --rebase
           git diff --cached --quiet || git commit -m "collect getaiperks $(date -u +%F)"
           git push
