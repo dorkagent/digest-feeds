@@ -24,10 +24,13 @@ UA = {"User-Agent": "dorkagent-digest-feeds/1.0 (weekly digest collector)"}
 LAST_CALL = [0.0]
 RANK_MIN_AGE_S = 36 * 3600  # scores are meaningless before this
 REMOVED_MARKERS = ("[removed]", "[deleted]")
+# 422 = Arctic Shift's "Timeout. Maybe slow down"; 504 and 520-524 are
+# Cloudflare-fronted gateway/origin timeouts.
+RETRY_CODES = (422, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524)
 
 
 def get(path, params, tries=5):
-    """GET with retries. Retries HTTP 422/429/5xx AND network errors
+    """GET with retries. Retries HTTP 422/429/5xx (RETRY_CODES) AND network errors
     (URLError, timeouts, connection resets) — Arctic Shift is volunteer-run
     and intermittently flaky on both."""
     url = BASE + path + "?" + urllib.parse.urlencode(params)
@@ -44,7 +47,7 @@ def get(path, params, tries=5):
                 return json.load(r)
         except urllib.error.HTTPError as e:
             last = e
-            if e.code not in (422, 429, 500, 502, 503):
+            if e.code not in RETRY_CODES:
                 raise
             time.sleep(2 ** attempt + 1)
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
@@ -57,8 +60,11 @@ def is_removed(p):
     """A [removed]/[deleted] post has no content left — it only eats budget."""
     title = (p.get("title") or "").strip()
     selftext = (p.get("selftext") or "").strip()
+    # removed_by_category (reddit / moderator / automod_filtered / deleted /
+    # ...) also catches removed link posts whose text was never replaced.
     return (title in REMOVED_MARKERS or selftext in REMOVED_MARKERS
-            or p.get("removed") is True)
+            or p.get("removed") is True
+            or bool(p.get("removed_by_category")))
 
 
 def slim_post(p):

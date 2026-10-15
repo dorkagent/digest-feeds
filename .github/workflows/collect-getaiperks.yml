@@ -8,10 +8,12 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-# One data-push at a time across all collectors (push-race guard); the
-# pull --rebase below makes each push fast-forward after waiting.
+# Per-workflow group: a manual dispatch queues behind the scheduled run of
+# the SAME collector (same output file) instead of racing it. Cross-collector
+# push races are handled by the commit step's rebase-and-retry loop; a shared
+# group would let a third queued run cancel a pending one.
 concurrency:
-  group: digest-feeds-data-push
+  group: ${{ github.workflow }}
   cancel-in-progress: false
 jobs:
   collect:
@@ -43,6 +45,27 @@ jobs:
           git config user.name "dorkagent"
           git config user.email "dork@agentmail.to"
           git add data/
-          git pull --rebase
-          git diff --cached --quiet || git commit -m "collect getaiperks $(date -u +%F)"
-          git push
+          if git diff --cached --quiet; then
+            echo "no data changes"; exit 0
+          fi
+          git commit -m "collect getaiperks $(date -u +%F)"
+          # Rebase only AFTER committing (pull --rebase refuses a staged
+          # index). Retry covers a push race with another collector; on a
+          # rebase conflict, abort so the next attempt starts clean.
+          for i in 1 2 3 4; do
+            if git pull --rebase; then
+              git push && exit 0
+            else
+              git rebase --abort || true
+            fi
+            sleep $((i * 10))
+          done
+          echo "push failed after retries" >&2
+          exit 1
+      # continue-on-error keeps one source's failure from blocking the other's
+      # commit, but would leave the run green. Surface it after committing.
+      - name: Fail run if a collector failed
+        if: steps.blog.outcome == 'failure' || steps.freebies.outcome == 'failure'
+        run: |
+          echo "blog=${{ steps.blog.outcome }} freebies=${{ steps.freebies.outcome }}" >&2
+          exit 1

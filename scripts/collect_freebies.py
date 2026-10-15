@@ -3,7 +3,8 @@
 
 Keyless. Each source is isolated: if one fails, the other still writes and
 the failure is recorded in the top-level "errors" list (partial output beats
-losing both files).
+losing both files). If BOTH fail, the file is still written (with errors)
+but the script exits 1.
 
 Usage: collect_freebies.py <out.json>
 """
@@ -108,6 +109,10 @@ def main():
         json.dump(doc, f, indent=1)
     print(f"wrote {out}: {len(freebies)} freebies posts, "
           f"{len(hn_items)} HN items, errors={errors or 'none'}")
+    if len(errors) == 2:
+        # Both sources failed: the file carries the errors for inspection,
+        # but exit 1 so the run shows red instead of passing silently.
+        sys.exit(1)
 
 
 if __name__ == "__main__":

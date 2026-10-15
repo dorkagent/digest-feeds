@@ -3,8 +3,10 @@
 
 Index is server-rendered (Next.js on Vercel), 24 cards per page, newest first,
 paginated at /en/blogs/page/N. Walks pages until a card is older than the
-window, and exits non-zero if nothing parses (markup changed) so the workflow
-never commits an empty file that looks like a quiet week.
+window. A later page that fails is recorded in errors with truncated=true
+(pages already read are kept); so is hitting MAX_PAGES first. Exits
+non-zero if nothing parses (markup changed) so the workflow never commits
+an empty file that looks like a quiet week.
 Usage: collect_getaiperks.py <out.json> [--days 7]
 """
 import argparse
@@ -72,9 +74,27 @@ def main():
     a = ap.parse_args()
     cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=a.days)).date().isoformat()
 
-    posts, seen, pages = [], set(), 0
+    posts, seen, pages, errors = [], set(), 0, []
+    truncated = False
     for n in range(1, MAX_PAGES + 1):
-        cards = parse(fetch("/en/blogs" if n == 1 else f"/en/blogs/page/{n}"))
+        path = "/en/blogs" if n == 1 else f"/en/blogs/page/{n}"
+        try:
+            cards = parse(fetch(path))
+        except urllib.error.HTTPError as e:
+            if n > 1 and e.code == 404:
+                break  # walked past the last index page: end, not an error
+            if n == 1:
+                raise
+            errors.append(f"{path}: HTTP {e.code}")
+            truncated = True
+            break
+        except Exception as e:  # noqa: BLE001
+            if n == 1:
+                raise  # nothing collected: fail the run
+            # keep the pages we already have; flag the week as partial
+            errors.append(f"{path}: {type(e).__name__}: {e}")
+            truncated = True
+            break
         pages = n
         if not cards:
             break
@@ -86,6 +106,12 @@ def main():
         oldest = min((c["date"] for c in cards if c["date"]), default=None)
         if oldest is None or oldest < cutoff:
             break  # this page already reaches past the window
+        if n == 1:
+            page_size = len(cards)
+        elif len(cards) < page_size:
+            break  # short page = last page of the index
+    else:
+        truncated = True  # hit MAX_PAGES before reaching the cutoff
 
     if not posts:
         print("ERROR: 0 cards parsed -- index markup likely changed", file=sys.stderr)
@@ -96,6 +122,8 @@ def main():
         "source": BASE + "/en/blogs",
         "window_days": a.days,
         "pages_read": pages,
+        "truncated": truncated,
+        "errors": errors,
         "n_posts": len(posts),
         "n_new": sum(p["is_new"] for p in posts),
         "n_undated": undated,
