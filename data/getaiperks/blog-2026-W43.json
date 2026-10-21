@@ -1,0 +1,325 @@
+{
+ "collected_at": "2026-10-21T16:02:08.562314+00:00",
+ "source": "https://www.getaiperks.com/en/blogs",
+ "window_days": 7,
+ "pages_read": 1,
+ "truncated": false,
+ "errors": [],
+ "n_posts": 24,
+ "n_new": 0,
+ "n_undated": 0,
+ "posts": [
+  {
+   "title": "5 reasons why startups choose Zendesk over Fin (formerly Intercom)",
+   "url": "https://www.getaiperks.com/en/blogs/97-why-startups-choose-zendesk-over-fin-intercom",
+   "date": "2026-09-22",
+   "excerpt": "Zendesk for Startups vs Fin (formerly Intercom): broader eligibility, up to 2 years free, 50 agent seats, 1:1 onboarding and a complete AI resolution platform.",
+   "tags": [
+    "Zendesk",
+    "Intercom",
+    "Customer Support"
+   ],
+   "author": "Denise Quashie",
+   "is_new": false
+  },
+  {
+   "title": "What Is Google Antigravity? The Agent-First IDE Explained (2026)",
+   "url": "https://www.getaiperks.com/en/blogs/92-what-is-google-antigravity",
+   "date": "2026-09-16",
+   "excerpt": "Google Antigravity is an agent-first development platform built around Gemini. What it does, how it differs from Gemini CLI and Cursor, and how to fund your AI coding with free credits.",
+   "tags": [
+    "Google Antigravity",
+    "Gemini",
+    "AI Coding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Gemini CLI Guide 2026: Install, Configure and Fund It With Free Credits",
+   "url": "https://www.getaiperks.com/en/blogs/93-gemini-cli-complete-guide",
+   "date": "2026-09-16",
+   "excerpt": "A practical guide to Gemini CLI: what it is, how to install it, how it compares to Claude Code and Codex CLI, and how to cover the model bill with startup credits.",
+   "tags": [
+    "Gemini CLI",
+    "Google Gemini",
+    "AI Coding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Who Owns ChatGPT? OpenAI Ownership and Structure Explained (2026)",
+   "url": "https://www.getaiperks.com/en/blogs/94-who-owns-chatgpt-openai",
+   "date": "2026-09-16",
+   "excerpt": "ChatGPT is owned by OpenAI. Who controls OpenAI, how big Microsoft stake actually is, and what the structure means for developers building on the API.",
+   "tags": [
+    "OpenAI",
+    "Who Owns ChatGPT",
+    "ChatGPT"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Grok CLI Guide 2026: Setup, Costs and Free xAI Credits",
+   "url": "https://www.getaiperks.com/en/blogs/95-grok-cli-guide",
+   "date": "2026-09-16",
+   "excerpt": "What Grok CLI is, how to install and authenticate it, how it compares to Claude Code and Gemini CLI, and how to cover xAI API costs with startup credits.",
+   "tags": [
+    "Grok CLI",
+    "xAI",
+    "Grok"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Codex CLI Guide 2026: Install, Run and Fund It With Free Credits",
+   "url": "https://www.getaiperks.com/en/blogs/96-codex-cli-complete-guide",
+   "date": "2026-09-16",
+   "excerpt": "OpenAI Codex CLI explained: installation, authentication, how it compares to Claude Code and Gemini CLI, and how to cover the OpenAI API bill with startup credits.",
+   "tags": [
+    "Codex CLI",
+    "OpenAI",
+    "AI Coding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Okara AI: The AI CMO That Runs Your Startup Marketing",
+   "url": "https://www.getaiperks.com/en/blogs/91-okara-ai-cmo-for-founders",
+   "date": "2026-07-06",
+   "excerpt": "Okara is an AI CMO that runs SEO, GEO, Reddit, and content agents 24/7 for founders. See how it works, what it costs, and how to get 50% off.",
+   "tags": [
+    "Okara AI",
+    "AI CMO",
+    "AI Marketing"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "How to Raise a Pre-Seed Round in 2026",
+   "url": "https://www.getaiperks.com/en/blogs/71-how-to-raise-pre-seed-round-2026",
+   "date": "2026-06-21",
+   "excerpt": "A practical founder playbook for raising a pre-seed round in 2026: how much to raise, what investors expect, where to find them, and a realistic timeline.",
+   "tags": [
+    "Fundraising",
+    "Pre-Seed",
+    "Startup Funding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Seed Funding Guide 2026: How Much to Raise",
+   "url": "https://www.getaiperks.com/en/blogs/72-seed-funding-guide-2026",
+   "date": "2026-06-20",
+   "excerpt": "Seed funding guide for 2026 - how much to raise, what milestones unlock a round, valuation and dilution math, and how to find investors fast.",
+   "tags": [
+    "Fundraising",
+    "Seed Funding",
+    "Startup Funding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "How to Find Investors for Your Startup",
+   "url": "https://www.getaiperks.com/en/blogs/73-how-to-find-investors-for-startup",
+   "date": "2026-06-19",
+   "excerpt": "Learn how to find investors for your startup without warm intros. Build a targeted list, match investors to your stage, and reach them directly.",
+   "tags": [
+    "Fundraising",
+    "Find Investors",
+    "Startup Funding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Pitch Deck Slides That Get Meetings in 2026",
+   "url": "https://www.getaiperks.com/en/blogs/74-pitch-deck-slides-that-get-meetings-2026",
+   "date": "2026-06-18",
+   "excerpt": "The essential pitch deck slides that get investor meetings in 2026, what VCs look for on each, and the common mistakes that kill your raise.",
+   "tags": [
+    "Fundraising",
+    "Pitch Deck",
+    "Startup Funding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "SAFE Notes Explained: A Founder Guide",
+   "url": "https://www.getaiperks.com/en/blogs/75-safe-notes-explained",
+   "date": "2026-06-17",
+   "excerpt": "SAFE notes explained for early-stage founders: post-money vs pre-money, valuation caps, discounts, and how SAFEs convert into equity.",
+   "tags": [
+    "Fundraising",
+    "SAFE Notes",
+    "Startup Funding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Startup Valuation for Pre-Revenue Companies",
+   "url": "https://www.getaiperks.com/en/blogs/76-startup-valuation-pre-revenue",
+   "date": "2026-06-16",
+   "excerpt": "Startup valuation for pre-revenue companies explained: methods, what drives a higher cap, and how to talk numbers with investors without losing the room.",
+   "tags": [
+    "Fundraising",
+    "Startup Valuation",
+    "Pre-Revenue"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Angel Investors vs Venture Capital: Key Differences",
+   "url": "https://www.getaiperks.com/en/blogs/77-angel-investors-vs-venture-capital",
+   "date": "2026-06-15",
+   "excerpt": "Angel investors vs venture capital compared on check size, stage, speed, and control - learn which funding fits your round and how to approach each.",
+   "tags": [
+    "Fundraising",
+    "Angel Investors",
+    "Venture Capital"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Cold Email to Investors That Gets Replies",
+   "url": "https://www.getaiperks.com/en/blogs/78-cold-email-to-investors-that-get-replies",
+   "date": "2026-06-14",
+   "excerpt": "Learn how to write a cold email to investors that gets replies - subject lines, structure, length, and follow-up cadence, with a proven template.",
+   "tags": [
+    "Fundraising",
+    "Investor Outreach",
+    "Cold Email"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Startup Fundraising Process Explained Step by Step",
+   "url": "https://www.getaiperks.com/en/blogs/79-startup-fundraising-process-explained",
+   "date": "2026-06-13",
+   "excerpt": "The startup fundraising process explained step by step, from prep and outreach to term sheet and close, with timelines and how to run a tight round.",
+   "tags": [
+    "Fundraising",
+    "Fundraising Process",
+    "Startup Funding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Cap Table Guide for Founders: Dilution Made Simple",
+   "url": "https://www.getaiperks.com/en/blogs/80-startup-cap-table-guide",
+   "date": "2026-06-12",
+   "excerpt": "A founder-friendly cap table guide covering dilution math, option pools, and how funding rounds change ownership - plus how to keep it clean.",
+   "tags": [
+    "Fundraising",
+    "Cap Table",
+    "Equity"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "How to Raise a Series A in 2026: Metrics & Process",
+   "url": "https://www.getaiperks.com/en/blogs/81-how-to-raise-series-a-2026",
+   "date": "2026-06-11",
+   "excerpt": "How to raise a Series A in 2026: the ARR, growth, and traction investors expect, how much to raise, the narrative, and the full process.",
+   "tags": [
+    "Fundraising",
+    "Series A",
+    "Startup Funding"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Convertible Notes vs SAFEs: A Founder Guide",
+   "url": "https://www.getaiperks.com/en/blogs/82-convertible-notes-vs-safes",
+   "date": "2026-06-10",
+   "excerpt": "Convertible notes vs SAFEs explained: how each works, the key differences, and how to pick the right instrument for your early-stage raise.",
+   "tags": [
+    "Fundraising",
+    "Convertible Notes",
+    "SAFE Notes"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "How Much Equity to Give Up When Fundraising",
+   "url": "https://www.getaiperks.com/en/blogs/83-how-much-equity-to-give-up-fundraising",
+   "date": "2026-06-09",
+   "excerpt": "Learn how much equity to give up when raising money: typical dilution per round at pre-seed, seed, and Series A, plus how to protect ownership.",
+   "tags": [
+    "Fundraising",
+    "Equity",
+    "Dilution"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Investor Data Room Checklist for Due Diligence",
+   "url": "https://www.getaiperks.com/en/blogs/84-investor-data-room-checklist",
+   "date": "2026-06-08",
+   "excerpt": "The complete investor data room checklist for due diligence. Exactly which corporate, financial, legal, and product documents to include to close faster.",
+   "tags": [
+    "Fundraising",
+    "Data Room",
+    "Due Diligence"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Run Your Fundraising Like a Process, Not a Panic",
+   "url": "https://www.getaiperks.com/en/blogs/85-run-your-fundraising-like-a-process",
+   "date": "2026-06-07",
+   "excerpt": "A repeatable fundraising process beats a panicked scramble. Build an investor pipeline, batch outreach, create urgency, and close faster.",
+   "tags": [
+    "Fundraising",
+    "Investor Pipeline",
+    "Fundraising Strategy"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "Bootstrapping vs Venture Capital: How to Decide",
+   "url": "https://www.getaiperks.com/en/blogs/86-bootstrapping-vs-raising-venture-capital",
+   "date": "2026-06-06",
+   "excerpt": "Bootstrapping vs venture capital compared on control, speed, growth ceiling, and risk - plus how to decide which path fits your startup.",
+   "tags": [
+    "Fundraising",
+    "Bootstrapping",
+    "Venture Capital"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  },
+  {
+   "title": "How to Get Warm Intros to Investors",
+   "url": "https://www.getaiperks.com/en/blogs/87-how-to-get-warm-intros-to-investors",
+   "date": "2026-06-05",
+   "excerpt": "Learn how to get warm intros to investors, write a forwardable email, build a referral network, and do cold outreach right when you have none.",
+   "tags": [
+    "Fundraising",
+    "Warm Intros",
+    "Investor Outreach"
+   ],
+   "author": "Andrew",
+   "is_new": false
+  }
+ ]
+}
