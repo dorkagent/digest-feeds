@@ -1,0 +1,984 @@
+{
+ "collected_at": "2026-11-25T23:42:35.562855+00:00",
+ "errors": [],
+ "r_freebies": {
+  "n_posts": 22,
+  "truncated": false,
+  "n_removed_skipped": 30,
+  "note": "scores are ingest-time and meaningless under ~36h: top_by_score ranks posts older than 36h only; newest is the unranked freshest slice",
+  "top_by_score": [
+   {
+    "id": "1y42160",
+    "author": "skyehighlove",
+    "created_utc": 1795488820,
+    "created_iso": "2026-11-24T02:53:40+00:00",
+    "title": "Text knoodle to get free at 7-11 YMMV",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 52,
+    "num_comments": 17,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y42160/text_knoodle_to_get_free_at_711_ymmv/",
+    "url": "https://i.redd.it/qbg0rie36h3i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1ovie",
+    "author": "peacelovebre",
+    "created_utc": 1795238142,
+    "created_iso": "2026-11-21T05:15:42+00:00",
+    "title": "Here's another--- 1 free ticket for HERSHEY movie for 11/24 - 11/26:",
+    "selftext": "Code: HERSHEY\n\nhttps://www.fandango.com/hershey-2026-246518/movie-overview",
+    "selftext_truncated": false,
+    "score": 49,
+    "num_comments": 5,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1ovie/heres_another_1_free_ticket_for_hershey_movie_for/",
+    "url": "https://i.redd.it/me8u316pgw2i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1crzr",
+    "author": "nellyhen8",
+    "created_utc": 1795203642,
+    "created_iso": "2026-11-20T19:40:42+00:00",
+    "title": "Free Temptations Cat Treat Samples",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 36,
+    "num_comments": 19,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1crzr/free_temptations_cat_treat_samples/",
+    "url": "https://e.sampltech.com/treat-me-like-a-dog-2026-us-mar-2026-copy/leave-feedback?fbclid=IwVERDUAVtgTJleHRuA2FlbQEwAHBkb2YFZmRpZBZRKVVU-PQBzDNYYV4l5QXE_8j_CaPaYWRpZAGrN-bmcoLlc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABH4uaQjr5JcmWCP1IbWohOibHR2DzA-iQVPYqphb6OzKajfd2uTOojkjqf1rg_aem_uTJ0zBMd8PRiwDu6hOvCnQ",
+    "flair": "[Order Online]"
+   },
+   {
+    "id": "1y196ik",
+    "author": "peacelovebre",
+    "created_utc": 1795195195,
+    "created_iso": "2026-11-20T17:19:55+00:00",
+    "title": "2 free tickets to see Above The Below:",
+    "selftext": "Code: ATOMBELOW\n\nhttps://www.atomtickets.com/movies/above-the-below/366812",
+    "selftext_truncated": false,
+    "score": 31,
+    "num_comments": 16,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y196ik/2_free_tickets_to_see_above_the_below/",
+    "url": "https://i.redd.it/4jp7uyozws2i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y3so6d",
+    "author": "Radiant-Bandicoot920",
+    "created_utc": 1795464425,
+    "created_iso": "2026-11-23T20:07:05+00:00",
+    "title": "2 Free ATOM MOVIE tickets",
+    "selftext": "I couldn\u2019t get the screen shot but it\u2019s for November 1963\n\nCode: ATOM1963",
+    "selftext_truncated": false,
+    "score": 27,
+    "num_comments": 6,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y3so6d/2_free_atom_movie_tickets/",
+    "url": "https://i.redd.it/jdsqb7yj5f3i1.jpeg",
+    "flair": "[Order Online]"
+   },
+   {
+    "id": "1y3pex8",
+    "author": "Atomic_Nexus",
+    "created_utc": 1795457226,
+    "created_iso": "2026-11-23T18:07:06+00:00",
+    "title": "[11/23 only, YMMV] Free Pita Chips at Cava for Rewards Members",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 27,
+    "num_comments": 1,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y3pex8/1123_only_ymmv_free_pita_chips_at_cava_for/",
+    "url": "https://i.redd.it/af0qr7c5ke3i1.jpeg",
+    "flair": "[Membership Required]"
+   },
+   {
+    "id": "1y1geur",
+    "author": "Aggressive-Insect672",
+    "created_utc": 1795212798,
+    "created_iso": "2026-11-20T22:13:18+00:00",
+    "title": "New Move On Free Sticker",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 19,
+    "num_comments": 6,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1geur/new_move_on_free_sticker/",
+    "url": "https://front.moveon.org/free-stickers/",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y2i0j5",
+    "author": "AutoModerator",
+    "created_utc": 1795327230,
+    "created_iso": "2026-11-22T06:00:30+00:00",
+    "title": "Weekly Discussion Thread for the week of November 22, 2026",
+    "selftext": "Please use this thread to brag about all the nifty new stuff that you got, suggestions, or iffy looking stuff.\n\nCheck out [our past discussion threads](https://reddit.com/r/freebies/search?q=weekly+discussion&restrict_sr=on&sort=new&t=all) and /r/freebietalk as well!",
+    "selftext_truncated": false,
+    "score": 17,
+    "num_comments": 1,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y2i0j5/weekly_discussion_thread_for_the_week_of_november/",
+    "url": "https://www.reddit.com/r/freebies/comments/1y2i0j5/weekly_discussion_thread_for_the_week_of_november/",
+    "flair": "Weekly Discussion"
+   },
+   {
+    "id": "1y1nu2s",
+    "author": "peacelovebre",
+    "created_utc": 1795234694,
+    "created_iso": "2026-11-21T04:18:14+00:00",
+    "title": "3 free tickets to November 1963 movie:",
+    "selftext": "Make sure to change the zip code to your area.\n\nCode: 1963FREE\n\nhttps://www.fandango.com/november-1963-2026-247864/movie-overview",
+    "selftext_truncated": false,
+    "score": 12,
+    "num_comments": 16,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1nu2s/3_free_tickets_to_november_1963_movie/",
+    "url": "https://i.redd.it/0vcp260g6w2i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y0cepj",
+    "author": "bike_trips_r_great",
+    "created_utc": 1795102693,
+    "created_iso": "2026-11-19T15:38:13+00:00",
+    "title": "Casey's: Free Throne Sports Coffee. Only Today.",
+    "selftext": "Must go into the app and save offer.  Then scan app barcode or enter phone number at keypad. No purchase necessary. It's protein coffee in mocha, caramel, and vanilla.  ",
+    "selftext_truncated": false,
+    "score": 10,
+    "num_comments": 4,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y0cepj/caseys_free_throne_sports_coffee_only_today/",
+    "url": "https://www.reddit.com/gallery/1y0cepj",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1fzsw",
+    "author": "_6EQUJ5-",
+    "created_utc": 1795211730,
+    "created_iso": "2026-11-20T21:55:30+00:00",
+    "title": "2027 Snort Calendar request form is live!",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 3,
+    "num_comments": 2,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1fzsw/2027_snort_calendar_request_form_is_live/",
+    "url": "https://ciscocx.qualtrics.com/jfe/form/SV_3UbaWI0zW8tfalg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1nw4q",
+    "author": "bbyxmadi",
+    "created_utc": 1795234881,
+    "created_iso": "2026-11-21T04:21:21+00:00",
+    "title": "Free Metal Ornament from Shutterfly for PetSmart Treat Rewards members",
+    "selftext": "Their membership is free, just need a PetSmart account. \n\nYou do have to pay shipping though, but it\u2019s still a cute free ornament (comes with back and front imagery). \n\n\ud83d\udea8 Also, I\u2019m not 100% if that code is a unique code to me. If it is, just make a PetSmart account and you either will receive an email like I did or it\u2019ll show up in the rewards section on your PetSmart account. The deal lasts until 12/31. ",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1nw4q/free_metal_ornament_from_shutterfly_for_petsmart/",
+    "url": "https://i.redd.it/vlc8it307w2i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1m5jy",
+    "author": "Important-Tear8461",
+    "created_utc": 1795229288,
+    "created_iso": "2026-11-21T02:48:08+00:00",
+    "title": "If anyone plays Dragon ball legends can you give me a free Dragon ball legends account thats stacked",
+    "selftext": "My old DBL account got hacked so I can't play dbl",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1m5jy/if_anyone_plays_dragon_ball_legends_can_you_give/",
+    "url": "https://i.redd.it/295lw7ddqv2i1.jpeg",
+    "flair": "Global"
+   },
+   {
+    "id": "1y1kj5d",
+    "author": "charleesheroes",
+    "created_utc": 1795224272,
+    "created_iso": "2026-11-21T01:24:32+00:00",
+    "title": "Free Destin de Balmain Parfum",
+    "selftext": "This is my first post here, let me know if the link isn\u2019t valid! Enjoy the sample! \ud83d\ude4f\n\nOrder your free samples of Destin de Parfum by Balmain Beauty https://re.us.sopost.com/x9ZLVC-5YOY",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1kj5d/free_destin_de_balmain_parfum/",
+    "url": "https://re.us.sopost.com/x9ZLVC-5YOY",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1ecok",
+    "author": "og_hays",
+    "created_utc": 1795207476,
+    "created_iso": "2026-11-20T20:44:36+00:00",
+    "title": "Free pokemon pack rip, redeem code NBTUIMB on Rips",
+    "selftext": "Title.",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1ecok/free_pokemon_pack_rip_redeem_code_nbtuimb_on_rips/",
+    "url": "https://i.redd.it/r3jqtcgixt2i1.png",
+    "flair": "Global"
+   },
+   {
+    "id": "1y47tx3",
+    "author": "UnitedDog6260",
+    "created_utc": 1795508213,
+    "created_iso": "2026-11-24T08:16:53+00:00",
+    "title": "Free pack on rips, up to 200 dollars pretty much free money",
+    "selftext": "Use my place code on rips by triumph for a free pack worth up to 200 dollars no deposit required it\u2019s literally free money",
+    "selftext_truncated": false,
+    "score": 0,
+    "num_comments": 4,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y47tx3/free_pack_on_rips_up_to_200_dollars_pretty_much/",
+    "url": "https://i.redd.it/leo1o3drri3i1.jpeg",
+    "flair": "Global"
+   },
+   {
+    "id": "1y1hjgr",
+    "author": "mehdiweb",
+    "created_utc": 1795215771,
+    "created_iso": "2026-11-20T23:02:51+00:00",
+    "title": "Claude max for $29 instead of $200 ... seriously how are they doing this?",
+    "selftext": "i got a Claude max account from a reseller for essentially nothing compared to what I used to pay . It works flawless. since 3 months No issues yet i paid only for 1 month . Now I can't stop thinking about their business model. If resellers can sell it this cheap and still profit, how are they acquiring these accounts at scale?\n\n",
+    "selftext_truncated": false,
+    "score": 0,
+    "num_comments": 7,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1hjgr/claude_max_for_29_instead_of_200_seriously_how/",
+    "url": "https://i.redd.it/cpoo8866mu2i1.png",
+    "flair": "Global"
+   }
+  ],
+  "newest": [
+   {
+    "id": "1y5h14c",
+    "author": "AmbitiousAd1294",
+    "created_utc": 1795636470,
+    "created_iso": "2026-11-25T19:54:30+00:00",
+    "title": "Fashionista",
+    "selftext": "Hello everyone! \n\nI'm a female, 18y old and have been trying to shift my focus on clearing our my wardrobe and be more thoughtful and not buy any \"one single wear\" clothes but I'm really not able to buy anything new because I'm not very well off, financially. So I have been looking for people who are giving away their clothes that they don't really wear anymore because it's either not their style anymore or doesn't fit. I'm a size medium and would love sizes from Medium to large in clothes! \n\nThere are some inspos I have been looking forward to but honestly anything will do. Jeans, shirts, hoo\u2026 [truncated]",
+    "selftext_truncated": true,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y5h14c/fashionista/",
+    "url": "https://www.reddit.com/gallery/1y5h14c",
+    "flair": "Global"
+   },
+   {
+    "id": "1y5g7mq",
+    "author": "huuker_",
+    "created_utc": 1795634476,
+    "created_iso": "2026-11-25T19:21:16+00:00",
+    "title": "GitHub Student Developer Pack 2026 - claim it now, the pack already lost benefits this year",
+    "selftext": "The pack isn't static \u2014 DigitalOcean's $200 credit is already gone and Copilot Student sign-ups are paused. Lock in what's still active.\n\nStill in it: GitHub Pro, JetBrains IDEs, a free domain, and Azure for Students: $100 Azure credit for 12 months, no card needed (18+).\n\nVerify at education.github.com/pack \u2014 school email or a photo of your student ID/enrollment letter works. Usually approved within minutes to 72 hours.\n\nClaim the Azure credit: [azure.microsoft.com/free/students](https://azure.microsoft.com/free/students/?wt.mc_id=studentamb_693152)\n\nGood first thing to do with it: [Azure Fun\u2026 [truncated]",
+    "selftext_truncated": true,
+    "score": 2,
+    "num_comments": 2,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y5g7mq/github_student_developer_pack_2026_claim_it_now/",
+    "url": "https://i.redd.it/kf0orm577t3i1.jpeg",
+    "flair": "Global"
+   },
+   {
+    "id": "1y5a42n",
+    "author": "Secret_Ad1339",
+    "created_utc": 1795620359,
+    "created_iso": "2026-11-25T15:25:59+00:00",
+    "title": "Free soft taco",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y5a42n/free_soft_taco/",
+    "url": "https://i.redd.it/ycizunz61s3i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y5239k",
+    "author": "rython72",
+    "created_utc": 1795594813,
+    "created_iso": "2026-11-25T08:20:13+00:00",
+    "title": "Free Subway Fritos Chicken Enchilada Sub (rebate)",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y5239k/free_subway_fritos_chicken_enchilada_sub_rebate/",
+    "url": "https://start.zenivize.com/Pepsi/subway-fritos-chicken-enchilada-sub-8-cash-back-enrollment",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y4r39g",
+    "author": "bike_trips_r_great",
+    "created_utc": 1795559979,
+    "created_iso": "2026-11-24T22:39:39+00:00",
+    "title": "Casey's: Free Throne Sport Coffee. Only Today in Kansas City.",
+    "selftext": "Must go into the app and save offer.  Then scan app barcode or enter phone number on keypad.  I prefer the Mocha flavor.",
+    "selftext_truncated": false,
+    "score": 5,
+    "num_comments": 1,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y4r39g/caseys_free_throne_sport_coffee_only_today_in/",
+    "url": "https://i.redd.it/40g43xlo1n3i1.png",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y47tx3",
+    "author": "UnitedDog6260",
+    "created_utc": 1795508213,
+    "created_iso": "2026-11-24T08:16:53+00:00",
+    "title": "Free pack on rips, up to 200 dollars pretty much free money",
+    "selftext": "Use my place code on rips by triumph for a free pack worth up to 200 dollars no deposit required it\u2019s literally free money",
+    "selftext_truncated": false,
+    "score": 0,
+    "num_comments": 4,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y47tx3/free_pack_on_rips_up_to_200_dollars_pretty_much/",
+    "url": "https://i.redd.it/leo1o3drri3i1.jpeg",
+    "flair": "Global"
+   },
+   {
+    "id": "1y42160",
+    "author": "skyehighlove",
+    "created_utc": 1795488820,
+    "created_iso": "2026-11-24T02:53:40+00:00",
+    "title": "Text knoodle to get free at 7-11 YMMV",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 52,
+    "num_comments": 17,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y42160/text_knoodle_to_get_free_at_711_ymmv/",
+    "url": "https://i.redd.it/qbg0rie36h3i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y3so6d",
+    "author": "Radiant-Bandicoot920",
+    "created_utc": 1795464425,
+    "created_iso": "2026-11-23T20:07:05+00:00",
+    "title": "2 Free ATOM MOVIE tickets",
+    "selftext": "I couldn\u2019t get the screen shot but it\u2019s for November 1963\n\nCode: ATOM1963",
+    "selftext_truncated": false,
+    "score": 27,
+    "num_comments": 6,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y3so6d/2_free_atom_movie_tickets/",
+    "url": "https://i.redd.it/jdsqb7yj5f3i1.jpeg",
+    "flair": "[Order Online]"
+   },
+   {
+    "id": "1y3pex8",
+    "author": "Atomic_Nexus",
+    "created_utc": 1795457226,
+    "created_iso": "2026-11-23T18:07:06+00:00",
+    "title": "[11/23 only, YMMV] Free Pita Chips at Cava for Rewards Members",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 27,
+    "num_comments": 1,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y3pex8/1123_only_ymmv_free_pita_chips_at_cava_for/",
+    "url": "https://i.redd.it/af0qr7c5ke3i1.jpeg",
+    "flair": "[Membership Required]"
+   },
+   {
+    "id": "1y2i0j5",
+    "author": "AutoModerator",
+    "created_utc": 1795327230,
+    "created_iso": "2026-11-22T06:00:30+00:00",
+    "title": "Weekly Discussion Thread for the week of November 22, 2026",
+    "selftext": "Please use this thread to brag about all the nifty new stuff that you got, suggestions, or iffy looking stuff.\n\nCheck out [our past discussion threads](https://reddit.com/r/freebies/search?q=weekly+discussion&restrict_sr=on&sort=new&t=all) and /r/freebietalk as well!",
+    "selftext_truncated": false,
+    "score": 17,
+    "num_comments": 1,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y2i0j5/weekly_discussion_thread_for_the_week_of_november/",
+    "url": "https://www.reddit.com/r/freebies/comments/1y2i0j5/weekly_discussion_thread_for_the_week_of_november/",
+    "flair": "Weekly Discussion"
+   },
+   {
+    "id": "1y1ovie",
+    "author": "peacelovebre",
+    "created_utc": 1795238142,
+    "created_iso": "2026-11-21T05:15:42+00:00",
+    "title": "Here's another--- 1 free ticket for HERSHEY movie for 11/24 - 11/26:",
+    "selftext": "Code: HERSHEY\n\nhttps://www.fandango.com/hershey-2026-246518/movie-overview",
+    "selftext_truncated": false,
+    "score": 49,
+    "num_comments": 5,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1ovie/heres_another_1_free_ticket_for_hershey_movie_for/",
+    "url": "https://i.redd.it/me8u316pgw2i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1nw4q",
+    "author": "bbyxmadi",
+    "created_utc": 1795234881,
+    "created_iso": "2026-11-21T04:21:21+00:00",
+    "title": "Free Metal Ornament from Shutterfly for PetSmart Treat Rewards members",
+    "selftext": "Their membership is free, just need a PetSmart account. \n\nYou do have to pay shipping though, but it\u2019s still a cute free ornament (comes with back and front imagery). \n\n\ud83d\udea8 Also, I\u2019m not 100% if that code is a unique code to me. If it is, just make a PetSmart account and you either will receive an email like I did or it\u2019ll show up in the rewards section on your PetSmart account. The deal lasts until 12/31. ",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1nw4q/free_metal_ornament_from_shutterfly_for_petsmart/",
+    "url": "https://i.redd.it/vlc8it307w2i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1nu2s",
+    "author": "peacelovebre",
+    "created_utc": 1795234694,
+    "created_iso": "2026-11-21T04:18:14+00:00",
+    "title": "3 free tickets to November 1963 movie:",
+    "selftext": "Make sure to change the zip code to your area.\n\nCode: 1963FREE\n\nhttps://www.fandango.com/november-1963-2026-247864/movie-overview",
+    "selftext_truncated": false,
+    "score": 12,
+    "num_comments": 16,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1nu2s/3_free_tickets_to_november_1963_movie/",
+    "url": "https://i.redd.it/0vcp260g6w2i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1m5jy",
+    "author": "Important-Tear8461",
+    "created_utc": 1795229288,
+    "created_iso": "2026-11-21T02:48:08+00:00",
+    "title": "If anyone plays Dragon ball legends can you give me a free Dragon ball legends account thats stacked",
+    "selftext": "My old DBL account got hacked so I can't play dbl",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1m5jy/if_anyone_plays_dragon_ball_legends_can_you_give/",
+    "url": "https://i.redd.it/295lw7ddqv2i1.jpeg",
+    "flair": "Global"
+   },
+   {
+    "id": "1y1kj5d",
+    "author": "charleesheroes",
+    "created_utc": 1795224272,
+    "created_iso": "2026-11-21T01:24:32+00:00",
+    "title": "Free Destin de Balmain Parfum",
+    "selftext": "This is my first post here, let me know if the link isn\u2019t valid! Enjoy the sample! \ud83d\ude4f\n\nOrder your free samples of Destin de Parfum by Balmain Beauty https://re.us.sopost.com/x9ZLVC-5YOY",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1kj5d/free_destin_de_balmain_parfum/",
+    "url": "https://re.us.sopost.com/x9ZLVC-5YOY",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1hjgr",
+    "author": "mehdiweb",
+    "created_utc": 1795215771,
+    "created_iso": "2026-11-20T23:02:51+00:00",
+    "title": "Claude max for $29 instead of $200 ... seriously how are they doing this?",
+    "selftext": "i got a Claude max account from a reseller for essentially nothing compared to what I used to pay . It works flawless. since 3 months No issues yet i paid only for 1 month . Now I can't stop thinking about their business model. If resellers can sell it this cheap and still profit, how are they acquiring these accounts at scale?\n\n",
+    "selftext_truncated": false,
+    "score": 0,
+    "num_comments": 7,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1hjgr/claude_max_for_29_instead_of_200_seriously_how/",
+    "url": "https://i.redd.it/cpoo8866mu2i1.png",
+    "flair": "Global"
+   },
+   {
+    "id": "1y1geur",
+    "author": "Aggressive-Insect672",
+    "created_utc": 1795212798,
+    "created_iso": "2026-11-20T22:13:18+00:00",
+    "title": "New Move On Free Sticker",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 19,
+    "num_comments": 6,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1geur/new_move_on_free_sticker/",
+    "url": "https://front.moveon.org/free-stickers/",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1fzsw",
+    "author": "_6EQUJ5-",
+    "created_utc": 1795211730,
+    "created_iso": "2026-11-20T21:55:30+00:00",
+    "title": "2027 Snort Calendar request form is live!",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 3,
+    "num_comments": 2,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1fzsw/2027_snort_calendar_request_form_is_live/",
+    "url": "https://ciscocx.qualtrics.com/jfe/form/SV_3UbaWI0zW8tfalg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y1ecok",
+    "author": "og_hays",
+    "created_utc": 1795207476,
+    "created_iso": "2026-11-20T20:44:36+00:00",
+    "title": "Free pokemon pack rip, redeem code NBTUIMB on Rips",
+    "selftext": "Title.",
+    "selftext_truncated": false,
+    "score": 1,
+    "num_comments": 0,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1ecok/free_pokemon_pack_rip_redeem_code_nbtuimb_on_rips/",
+    "url": "https://i.redd.it/r3jqtcgixt2i1.png",
+    "flair": "Global"
+   },
+   {
+    "id": "1y1crzr",
+    "author": "nellyhen8",
+    "created_utc": 1795203642,
+    "created_iso": "2026-11-20T19:40:42+00:00",
+    "title": "Free Temptations Cat Treat Samples",
+    "selftext": "",
+    "selftext_truncated": false,
+    "score": 36,
+    "num_comments": 19,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y1crzr/free_temptations_cat_treat_samples/",
+    "url": "https://e.sampltech.com/treat-me-like-a-dog-2026-us-mar-2026-copy/leave-feedback?fbclid=IwVERDUAVtgTJleHRuA2FlbQEwAHBkb2YFZmRpZBZRKVVU-PQBzDNYYV4l5QXE_8j_CaPaYWRpZAGrN-bmcoLlc3J0YwZhcHBfaWQKNjYyODU2ODM3OQABH4uaQjr5JcmWCP1IbWohOibHR2DzA-iQVPYqphb6OzKajfd2uTOojkjqf1rg_aem_uTJ0zBMd8PRiwDu6hOvCnQ",
+    "flair": "[Order Online]"
+   },
+   {
+    "id": "1y196ik",
+    "author": "peacelovebre",
+    "created_utc": 1795195195,
+    "created_iso": "2026-11-20T17:19:55+00:00",
+    "title": "2 free tickets to see Above The Below:",
+    "selftext": "Code: ATOMBELOW\n\nhttps://www.atomtickets.com/movies/above-the-below/366812",
+    "selftext_truncated": false,
+    "score": 31,
+    "num_comments": 16,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y196ik/2_free_tickets_to_see_above_the_below/",
+    "url": "https://i.redd.it/4jp7uyozws2i1.jpeg",
+    "flair": "US Only"
+   },
+   {
+    "id": "1y0cepj",
+    "author": "bike_trips_r_great",
+    "created_utc": 1795102693,
+    "created_iso": "2026-11-19T15:38:13+00:00",
+    "title": "Casey's: Free Throne Sports Coffee. Only Today.",
+    "selftext": "Must go into the app and save offer.  Then scan app barcode or enter phone number at keypad. No purchase necessary. It's protein coffee in mocha, caramel, and vanilla.  ",
+    "selftext_truncated": false,
+    "score": 10,
+    "num_comments": 4,
+    "permalink": "https://www.reddit.com/r/freebies/comments/1y0cepj/caseys_free_throne_sports_coffee_only_today/",
+    "url": "https://www.reddit.com/gallery/1y0cepj",
+    "flair": "US Only"
+   }
+  ]
+ },
+ "hn_weekly": [
+  {
+   "title": "Levent Alp\u00f6ge claims proof of the Generalized Riemann Hypothesis [pdf]",
+   "url": "https://alpo.ge/remark.pdf",
+   "points": 2934,
+   "hn_url": "https://news.ycombinator.com/item?id=50574968",
+   "created_at": "2026-11-20T14:16:21Z"
+  },
+  {
+   "title": "Nvidia Reinstates Jensen Huang as CEO",
+   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+   "points": 2839,
+   "hn_url": "https://news.ycombinator.com/item?id=50611576",
+   "created_at": "2026-11-23T14:00:18Z"
+  },
+  {
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "points": 2453,
+   "hn_url": "https://news.ycombinator.com/item?id=50579568",
+   "created_at": "2026-11-20T18:33:14Z"
+  },
+  {
+   "title": "Ladybird is now in alpha",
+   "url": "https://ladybird.org/posts/alpha/",
+   "points": 2427,
+   "hn_url": "https://news.ycombinator.com/item?id=50614249",
+   "created_at": "2026-11-23T16:13:12Z"
+  },
+  {
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "points": 2011,
+   "hn_url": "https://news.ycombinator.com/item?id=50615308",
+   "created_at": "2026-11-23T17:07:26Z"
+  },
+  {
+   "title": "Jensen Huang Reinstated as Nvidia CEO",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+   "points": 1714,
+   "hn_url": "https://news.ycombinator.com/item?id=50611588",
+   "created_at": "2026-11-23T14:01:23Z"
+  },
+  {
+   "title": "Inkling 2 Mini",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "points": 1488,
+   "hn_url": "https://news.ycombinator.com/item?id=50581260",
+   "created_at": "2026-11-20T20:12:19Z"
+  },
+  {
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "points": 1400,
+   "hn_url": "https://news.ycombinator.com/item?id=50596133",
+   "created_at": "2026-11-22T04:04:56Z"
+  },
+  {
+   "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+   "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+   "points": 1399,
+   "hn_url": "https://news.ycombinator.com/item?id=50582069",
+   "created_at": "2026-11-20T21:03:12Z"
+  },
+  {
+   "title": "Lean verification of the Riemann Hypothesis",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "points": 1247,
+   "hn_url": "https://news.ycombinator.com/item?id=50589618",
+   "created_at": "2026-11-21T14:36:45Z"
+  },
+  {
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "url": "https://z.ai/blog/glm-5.4",
+   "points": 1179,
+   "hn_url": "https://news.ycombinator.com/item?id=50609685",
+   "created_at": "2026-11-23T10:06:43Z"
+  },
+  {
+   "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+   "url": "https://arm.jonpalmisc.com/",
+   "points": 1177,
+   "hn_url": "https://news.ycombinator.com/item?id=50617499",
+   "created_at": "2026-11-23T19:17:55Z"
+  },
+  {
+   "title": "Anthropic\u2019s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "points": 1146,
+   "hn_url": "https://news.ycombinator.com/item?id=50562754",
+   "created_at": "2026-11-19T17:02:40Z"
+  },
+  {
+   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+   "url": "https://spelunkr.tv",
+   "points": 1086,
+   "hn_url": "https://news.ycombinator.com/item?id=50606192",
+   "created_at": "2026-11-23T01:13:51Z"
+  },
+  {
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "points": 1042,
+   "hn_url": "https://news.ycombinator.com/item?id=50597612",
+   "created_at": "2026-11-22T08:57:34Z"
+  },
+  {
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "points": 1018,
+   "hn_url": "https://news.ycombinator.com/item?id=50644817",
+   "created_at": "2026-11-25T17:18:26Z"
+  },
+  {
+   "title": "2035 came early",
+   "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+   "points": 1018,
+   "hn_url": "https://news.ycombinator.com/item?id=50624497",
+   "created_at": "2026-11-24T06:30:33Z"
+  },
+  {
+   "title": "The matrix multiplication exponent is nine fourths [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "points": 1017,
+   "hn_url": "https://news.ycombinator.com/item?id=50637220",
+   "created_at": "2026-11-25T01:19:26Z"
+  },
+  {
+   "title": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "points": 998,
+   "hn_url": "https://news.ycombinator.com/item?id=50627340",
+   "created_at": "2026-11-24T12:40:15Z"
+  },
+  {
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "points": 895,
+   "hn_url": "https://news.ycombinator.com/item?id=50563066",
+   "created_at": "2026-11-19T17:25:33Z"
+  },
+  {
+   "title": "We need smart people who give a shit",
+   "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+   "points": 844,
+   "hn_url": "https://news.ycombinator.com/item?id=50554045",
+   "created_at": "2026-11-18T23:53:49Z"
+  },
+  {
+   "title": "I'll never buy Framework hardware again",
+   "url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+   "points": 840,
+   "hn_url": "https://news.ycombinator.com/item?id=50576855",
+   "created_at": "2026-11-20T16:06:30Z"
+  },
+  {
+   "title": "What Happened to Silicon Valley?",
+   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+   "points": 840,
+   "hn_url": "https://news.ycombinator.com/item?id=50602947",
+   "created_at": "2026-11-22T19:20:15Z"
+  },
+  {
+   "title": "Button Sounds \u2013 collection of professionally-recorded button clicks and presses",
+   "url": "https://buttons.joshwcomeau.com/",
+   "points": 838,
+   "hn_url": "https://news.ycombinator.com/item?id=50638032",
+   "created_at": "2026-11-25T03:23:07Z"
+  },
+  {
+   "title": "Slopstrap \u2013 Make your site look hastily vibecoded",
+   "url": "https://slopstrap.mikelacher.com/",
+   "points": 816,
+   "hn_url": "https://news.ycombinator.com/item?id=50576012",
+   "created_at": "2026-11-20T15:24:11Z"
+  },
+  {
+   "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+   "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+   "points": 813,
+   "hn_url": "https://news.ycombinator.com/item?id=50622774",
+   "created_at": "2026-11-24T02:27:02Z"
+  },
+  {
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "points": 776,
+   "hn_url": "https://news.ycombinator.com/item?id=50603845",
+   "created_at": "2026-11-22T21:01:16Z"
+  },
+  {
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what\u2019s now happening",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "points": 771,
+   "hn_url": "https://news.ycombinator.com/item?id=50646108",
+   "created_at": "2026-11-25T19:11:27Z"
+  },
+  {
+   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+   "url": null,
+   "points": 754,
+   "hn_url": "https://news.ycombinator.com/item?id=50583761",
+   "created_at": "2026-11-20T23:18:32Z"
+  },
+  {
+   "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+   "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+   "points": 726,
+   "hn_url": "https://news.ycombinator.com/item?id=50572355",
+   "created_at": "2026-11-20T09:43:19Z"
+  }
+ ],
+ "hn_frontpage": [
+  {
+   "title": "Levent Alp\u00f6ge claims proof of the Generalized Riemann Hypothesis [pdf]",
+   "url": "https://alpo.ge/remark.pdf",
+   "points": 2934,
+   "hn_url": "https://news.ycombinator.com/item?id=50574968",
+   "created_at": "2026-11-20T14:16:21Z"
+  },
+  {
+   "title": "Nvidia Reinstates Jensen Huang as CEO",
+   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+   "points": 2839,
+   "hn_url": "https://news.ycombinator.com/item?id=50611576",
+   "created_at": "2026-11-23T14:00:18Z"
+  },
+  {
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "points": 2453,
+   "hn_url": "https://news.ycombinator.com/item?id=50579568",
+   "created_at": "2026-11-20T18:33:14Z"
+  },
+  {
+   "title": "Ladybird is now in alpha",
+   "url": "https://ladybird.org/posts/alpha/",
+   "points": 2427,
+   "hn_url": "https://news.ycombinator.com/item?id=50614249",
+   "created_at": "2026-11-23T16:13:12Z"
+  },
+  {
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "points": 2011,
+   "hn_url": "https://news.ycombinator.com/item?id=50615308",
+   "created_at": "2026-11-23T17:07:26Z"
+  },
+  {
+   "title": "Jensen Huang Reinstated as Nvidia CEO",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+   "points": 1714,
+   "hn_url": "https://news.ycombinator.com/item?id=50611588",
+   "created_at": "2026-11-23T14:01:23Z"
+  },
+  {
+   "title": "Inkling 2 Mini",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "points": 1488,
+   "hn_url": "https://news.ycombinator.com/item?id=50581260",
+   "created_at": "2026-11-20T20:12:19Z"
+  },
+  {
+   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+   "points": 1400,
+   "hn_url": "https://news.ycombinator.com/item?id=50596133",
+   "created_at": "2026-11-22T04:04:56Z"
+  },
+  {
+   "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+   "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+   "points": 1399,
+   "hn_url": "https://news.ycombinator.com/item?id=50582069",
+   "created_at": "2026-11-20T21:03:12Z"
+  },
+  {
+   "title": "Lean verification of the Riemann Hypothesis",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "points": 1247,
+   "hn_url": "https://news.ycombinator.com/item?id=50589618",
+   "created_at": "2026-11-21T14:36:45Z"
+  },
+  {
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "url": "https://z.ai/blog/glm-5.4",
+   "points": 1179,
+   "hn_url": "https://news.ycombinator.com/item?id=50609685",
+   "created_at": "2026-11-23T10:06:43Z"
+  },
+  {
+   "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+   "url": "https://arm.jonpalmisc.com/",
+   "points": 1177,
+   "hn_url": "https://news.ycombinator.com/item?id=50617499",
+   "created_at": "2026-11-23T19:17:55Z"
+  },
+  {
+   "title": "Anthropic\u2019s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "points": 1146,
+   "hn_url": "https://news.ycombinator.com/item?id=50562754",
+   "created_at": "2026-11-19T17:02:40Z"
+  },
+  {
+   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+   "url": "https://spelunkr.tv",
+   "points": 1086,
+   "hn_url": "https://news.ycombinator.com/item?id=50606192",
+   "created_at": "2026-11-23T01:13:51Z"
+  },
+  {
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "points": 1042,
+   "hn_url": "https://news.ycombinator.com/item?id=50597612",
+   "created_at": "2026-11-22T08:57:34Z"
+  },
+  {
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "points": 1018,
+   "hn_url": "https://news.ycombinator.com/item?id=50644817",
+   "created_at": "2026-11-25T17:18:26Z"
+  },
+  {
+   "title": "2035 came early",
+   "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+   "points": 1018,
+   "hn_url": "https://news.ycombinator.com/item?id=50624497",
+   "created_at": "2026-11-24T06:30:33Z"
+  },
+  {
+   "title": "The matrix multiplication exponent is nine fourths [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "points": 1017,
+   "hn_url": "https://news.ycombinator.com/item?id=50637220",
+   "created_at": "2026-11-25T01:19:26Z"
+  },
+  {
+   "title": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "points": 998,
+   "hn_url": "https://news.ycombinator.com/item?id=50627340",
+   "created_at": "2026-11-24T12:40:15Z"
+  },
+  {
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "points": 895,
+   "hn_url": "https://news.ycombinator.com/item?id=50563066",
+   "created_at": "2026-11-19T17:25:33Z"
+  },
+  {
+   "title": "We need smart people who give a shit",
+   "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+   "points": 844,
+   "hn_url": "https://news.ycombinator.com/item?id=50554045",
+   "created_at": "2026-11-18T23:53:49Z"
+  },
+  {
+   "title": "I'll never buy Framework hardware again",
+   "url": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+   "points": 840,
+   "hn_url": "https://news.ycombinator.com/item?id=50576855",
+   "created_at": "2026-11-20T16:06:30Z"
+  },
+  {
+   "title": "What Happened to Silicon Valley?",
+   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+   "points": 840,
+   "hn_url": "https://news.ycombinator.com/item?id=50602947",
+   "created_at": "2026-11-22T19:20:15Z"
+  },
+  {
+   "title": "Button Sounds \u2013 collection of professionally-recorded button clicks and presses",
+   "url": "https://buttons.joshwcomeau.com/",
+   "points": 838,
+   "hn_url": "https://news.ycombinator.com/item?id=50638032",
+   "created_at": "2026-11-25T03:23:07Z"
+  },
+  {
+   "title": "Slopstrap \u2013 Make your site look hastily vibecoded",
+   "url": "https://slopstrap.mikelacher.com/",
+   "points": 816,
+   "hn_url": "https://news.ycombinator.com/item?id=50576012",
+   "created_at": "2026-11-20T15:24:11Z"
+  },
+  {
+   "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+   "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+   "points": 813,
+   "hn_url": "https://news.ycombinator.com/item?id=50622774",
+   "created_at": "2026-11-24T02:27:02Z"
+  },
+  {
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "points": 776,
+   "hn_url": "https://news.ycombinator.com/item?id=50603845",
+   "created_at": "2026-11-22T21:01:16Z"
+  },
+  {
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what\u2019s now happening",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "points": 771,
+   "hn_url": "https://news.ycombinator.com/item?id=50646108",
+   "created_at": "2026-11-25T19:11:27Z"
+  },
+  {
+   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+   "url": null,
+   "points": 754,
+   "hn_url": "https://news.ycombinator.com/item?id=50583761",
+   "created_at": "2026-11-20T23:18:32Z"
+  },
+  {
+   "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+   "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+   "points": 726,
+   "hn_url": "https://news.ycombinator.com/item?id=50572355",
+   "created_at": "2026-11-20T09:43:19Z"
+  }
+ ]
+}
